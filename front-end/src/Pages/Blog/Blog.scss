@@ -1,0 +1,17 @@
+.pagination{
+  width: fit-content;
+  margin: 20px  auto;
+  margin-left: 'auto'
+}
+
+@media  (max-width:768px) {
+  .cards{
+    .header{
+      flex-direction: column;
+      h1{
+        width: 100%!important;
+        text-align: center;
+      }
+    }
+  }
+}

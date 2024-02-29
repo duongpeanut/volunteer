@@ -1,0 +1,14 @@
+.blogDetail_container{
+  padding:20px;
+  margin: 100px auto 0 auto;
+   width: 500px;
+   .image{
+
+   }
+}
+
+@media  (max-width:678px) {
+  .blogDetail_container{
+    width: 90%;
+  }
+}

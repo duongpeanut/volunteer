@@ -1,0 +1,20 @@
+.user_detail_manager{
+  margin-top: 100px;
+   padding: 20px;
+   .button_submit{
+     margin-left: auto;
+     display: block;
+     width: fit-content;
+   }
+}
+
+.form{
+  margin: 0 auto;
+  width: 60%;
+}
+
+@media (max-width:768px) {
+  .form{
+    width: 90%;
+  }
+}

@@ -1,0 +1,16 @@
+.event_detail_container{
+  padding: 20px;
+  margin: 100px auto 0 auto;
+  width: 800px;
+}
+
+@media (max-width:678px) {
+  .event_detail_container{
+    width: 90%;
+  }
+}
+@media (max-width:992px) {
+  .event_detail_container{
+    width: 90%;
+  }
+}

@@ -1,0 +1,29 @@
+.login-container{
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  .modal-login-img-container{
+    width: 30%;
+  }
+  .modal-login-img{
+    width: 80%;
+  }
+  .form{
+    width: 65%;
+    height: fit-content;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .login-container{
+    flex-direction: column;
+    align-items: center;
+    .modal-login-img-container{
+      display: none;
+    }
+    .form{
+      width: 90%;
+      height: fit-content;
+    }
+  }
+}
